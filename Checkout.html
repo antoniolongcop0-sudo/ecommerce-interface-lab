@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout & Shipping</title>
+</head>
+<body>
+    <section class="checkout">
+        <h2>Checkout & Shipping</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="address">Shipping Address:</label>
+            <input type="text" id="address" name="address" required><br>
+
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment" required>
+                <option value="">Credit card</option>
+                <option value="online">PayPal</option>
+            </select><br>
+        </form>
+
+        <aside class="order-summary">
+            <h3>Order Summary</h3>
+            <p>Item: Fila T-Shirt</p>
+            <p>Price: 673₱</p>
+            <p>Shipping Fee: 96₱</p>
+            <p>Total: 769₱</p>
+
+            <button type="submit">Place Order</button>
+</body>
+</html>
